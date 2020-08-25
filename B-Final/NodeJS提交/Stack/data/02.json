@@ -1,0 +1,122 @@
+{
+    "scene": {
+        "width": 800,
+        "height": 800
+    },
+    "player": {
+        "radius": 10,
+        "center": [10, 10]
+    },
+    "obstacles": [{
+            "center": [180, 180],
+            "width": 300,
+            "height": 10,
+            "rotation": 45
+        },
+        {
+            "center": [620, 620],
+            "width": 300,
+            "height": 10,
+            "rotation": 45
+        },
+        {
+            "center": [180, 620],
+            "width": 300,
+            "height": 10,
+            "rotation": -45
+        },
+        {
+            "center": [620, 180],
+            "width": 300,
+            "height": 10,
+            "rotation": -45
+        },
+
+        {
+            "center": [400, 250],
+            "width": 200,
+            "height": 10,
+            "rotation": 0
+        },
+        {
+            "center": [400, 550],
+            "width": 200,
+            "height": 10,
+            "rotation": 0
+        },
+        {
+            "center": [250, 400],
+            "width": 200,
+            "height": 10,
+            "rotation": 90
+        },
+        {
+            "center": [550, 400],
+            "width": 200,
+            "height": 10,
+            "rotation": 90
+        }
+    ],
+    "enemies": [{
+            "center": [100, 100],
+            "radius": 30,
+            "score": 10
+        },
+        {
+            "center": [400, 100],
+            "radius": 30,
+            "score": 10
+        },
+        {
+            "center": [700, 100],
+            "radius": 30,
+            "score": 10
+        },
+        {
+            "center": [100, 400],
+            "radius": 30,
+            "score": 10
+        },
+        {
+            "center": [700, 400],
+            "radius": 30,
+            "score": 10
+        },
+        {
+            "center": [100, 700],
+            "radius": 30,
+            "score": 10
+        },
+        {
+            "center": [400, 700],
+            "radius": 30,
+            "score": 10
+        },
+        {
+            "center": [700, 700],
+            "radius": 30,
+            "score": 10
+        },
+        {
+            "center": [300, 300],
+            "radius": 30,
+            "score": 10
+        },
+        {
+            "center": [500, 300],
+            "radius": 30,
+            "score": 10
+        },
+        {
+            "center": [300, 500],
+            "radius": 30,
+            "score": 10
+        },
+        {
+            "center": [500, 500],
+            "radius": 30,
+            "score": 10
+        }
+    ],
+    "chance": 8
+}

@@ -1,0 +1,31 @@
+{
+    "scene": {
+        "width": 800,
+        "height": 800
+    },
+    "player": {
+        "radius": 10,
+        "center": [10, 10]
+    },
+    "obstacles": [
+        {"center": [200, 200], "width": 400, "height": 10, "rotation": 45},
+        {"center": [600, 600], "width": 400, "height": 10, "rotation": 45},
+        {"center": [200, 600], "width": 400, "height": 10, "rotation": -45},
+        {"center": [600, 200], "width": 400, "height": 10, "rotation": -45}
+    ],
+    "enemies": [
+        {"center": [100, 100], "radius": 30, "score": 10},
+        {"center": [400, 100], "radius": 30, "score": 10},
+        {"center": [700, 100], "radius": 30, "score": 10},
+        {"center": [100, 400], "radius": 30, "score": 10},
+        {"center": [700, 400], "radius": 30, "score": 10},
+        {"center": [100, 700], "radius": 30, "score": 10},
+        {"center": [400, 700], "radius": 30, "score": 10},
+        {"center": [700, 700], "radius": 30, "score": 10},
+        {"center": [300, 300], "radius": 30, "score": 10},
+        {"center": [500, 300], "radius": 30, "score": 10},
+        {"center": [300, 500], "radius": 30, "score": 10},
+        {"center": [500, 500], "radius": 30, "score": 10}
+    ],
+    "chance": 5
+}

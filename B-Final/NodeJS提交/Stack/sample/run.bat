@@ -1,0 +1,1 @@
+@start /d %~dp0 node ./node/app.js
